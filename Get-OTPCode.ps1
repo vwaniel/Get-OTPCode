@@ -4,7 +4,7 @@ function Get-OTPCode {
 		Generate a one-time passcode (OTP) from seed data.
 	.DESCRIPTION
 		Generate a one-time passcode (OTP) from seed data.  Optionally, specify the number of seconds before the OTP code refreshes, the length of the OTP code, and the date/time to use when generating the code.
-	.PARAMTER OTPSeed
+	.PARAMETER OTPSeed
 		A base32 string containing the OTP seed data.  Must be specified as System.SecureString.
 	.PARAMETER OTPRefreshSeconds
 		The number of seconds before an OTP code is refreshed.  The default is 30 seconds.
