@@ -1,5 +1,5 @@
 # Get-OTPCode
-Powershell function that generates OTP codes using HMAC-SHA1 from Base 32 shared secrets.  Useful for programatically authenticating to APIs/systems that are secured with multi-factor authentication.
+PowerShell function that generates OTP codes using HMAC-SHA1 from Base 32 shared secrets.  Useful for programatically authenticating to APIs/systems that are secured with multi-factor authentication.
 
 ## Installation/Loading
 ```console
